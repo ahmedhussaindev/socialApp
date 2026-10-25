@@ -38,7 +38,7 @@ const route = createBrowserRouter([
   { path: '*', element: <Notfound /> }
 ],
 {
-  basename:"socialApp"
+  basename:"/socialApp"
 })
 
 function App() {
